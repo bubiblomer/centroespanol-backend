@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
  * Cron config that gives you an opportunity
@@ -18,4 +18,10 @@ module.exports = {
   // '0 1 * * 1': () => {
   //
   // }
+  // // At every 30th minute.
+  // "*/30 * * * *": () => {
+  //   strapi.plugins["instagram-feed"].services[
+  //     "instagram-feed"
+  //   ].fetchInstagramFeed();
+  // },
 };
