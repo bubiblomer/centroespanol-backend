@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_links_main_logos",
+  "info": {
+    "name": "Main Logo",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "Logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}
