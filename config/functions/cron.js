@@ -24,4 +24,10 @@ module.exports = {
   //     "instagram-feed"
   //   ].fetchInstagramFeed();
   // },
+  // At every minute.
+  // "* * * * *": () => {
+  //   strapi.plugins["instagram-feed"].services[
+  //     "instagram-feed"
+  //   ].fetchInstagramFeed();
+  // },
 };
