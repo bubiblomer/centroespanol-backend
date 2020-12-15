@@ -11,10 +11,12 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "@ckeditor/ckeditor5-react": "^3.0.0",
+    "ckeditor5-custom-build": "file:ckeditor5",
     "dotenv": "^8.2.0",
     "knex": "<0.20.0",
     "pg": "^8.5.1",
-    "sqlite3": "latest",
+    "sqlite3": "^5.0.0",
     "strapi": "3.3.4",
     "strapi-admin": "3.3.4",
     "strapi-connector-bookshelf": "3.3.4",
