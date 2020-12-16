@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_elements_slider_images",
+  "info": {
+    "name": "SliderImages",
+    "icon": "image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "link": {
+      "type": "string"
+    },
+    "external": {
+      "type": "boolean",
+      "default": true
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_sliders",
+  "info": {
+    "name": "Slider",
+    "icon": "images"
+  },
+  "options": {},
+  "attributes": {
+    "SliderImages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.slider-images"
+    }
+  }
+}

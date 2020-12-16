@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_sections_hero_centers",
+  "info": {
+    "name": "HeroCenter",
+    "icon": "angle-double-down"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "show_title": {
+      "type": "boolean",
+      "default": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "show_image": {
+      "type": "boolean",
+      "default": true
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
