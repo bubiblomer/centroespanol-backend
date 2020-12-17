@@ -7,9 +7,9 @@ module.exports = ({ env }) => ({
     providerOptions: {
       accessKeyId: env("AWS_KEY"),
       secretAccessKey: env("AWS_SECRET"),
-      region: env("PROD_AWS_REGION"),
+      region: env("DEV_AWS_REGION"),
       params: {
-        Bucket: env("PROD_AWS_BUCKET"),
+        Bucket: env("DEV_AWS_BUCKET"),
       },
     },
   },
