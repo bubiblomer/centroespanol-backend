@@ -26,7 +26,7 @@ module.exports = ({ env }) => ({
       text: true,
       display_url: true,
       thumbnail: true,
-      thumbnail_640x640: true,
+      thumbnail_500x500: true,
     },
   },
   // ...
