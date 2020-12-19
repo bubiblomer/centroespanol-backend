@@ -98,9 +98,9 @@ const generateBase64 = async (file) => {
 };
 
 const BREAKPOINTS = [
-  ["large", 1080],
-  ["medium", 850],
-  ["small", 500],
+  ["large", 1280],
+  ["medium", 1080],
+  ["small", 768],
 ];
 
 const generateResponsiveFormats = async (file) => {
